@@ -1,0 +1,48 @@
+Welcome
+===========
+<br/>
+
+<img src="/images/imran01.jpg" width="90" height="102" alt="Imran" ALIGN="Right" />
+**Short bio:** I am currently working as a Postdoctoral researcher at the Qatar Computing Research Institute (QCRI). I received a PhD in Computer Science 
+from the University of Trento, Italy. My research interests include Web Engineering, Social Computing, and Crisis Computing research areas. 
+I had been teaching (TA) courses related to the Web Service Design and Web Engineering areas in the University of Trento from 2009-2012.
+
+I received a Master of Science in Computer Science degree with a distinction from Mohammad Ali Jinnah University, Islamabad, Pakistan in 2007. I'm a Oracle Certified Professional (OCP) and I obtained my OCP certification in 2004 from the Oracle Corporation, California, USA. 
+ 
+<br/>
+**Check my profile on:** <br/>
+
+<a title="Muhammad Imran" href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&hl=en/"  target="_blank"><img src="/images/gscholar.jpeg" width="70" height="25" border="0" alt="Muhammad Imran" /></a>
+<a title="Muhammad Imran" href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" width="70" height="25" border="0" alt="Muhammad Imran" /></a>
+<a href="http://qa.linkedin.com/pub/muhammad-imran/1b/b4/a75"  target="_blank"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="85" height="27" border="0" alt="View Muhammad Imran's profile on LinkedIn"></a>
+<!-- <a href="https://twitter.com/mimran15" class="twitter-follow-button" data-show-count="false">Follow @mimran15</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
+
+-------------------------------
+
+**News and Highlights:**
+
+**[Jan, 2014] - Paper accepted** <br/>
+Our paper titled *"AIDR: Artificial Intelligence for Disaster Response"* has been accepted for publication at WWW-2014 conference.
+
+**[Jan, 2014] - Paper accepted** <br/>
+*"Coordinating Human and Machine Intelligence to Classify Microblog Communications in Crises"*. Accepted for publication at the *11th International Conference on Information Systems for Crisis Response and Management*, Pennsylvania, USA. 
+
+<br/>
+**[Nov, 2013] - AIDR platform launched** <br/>
+I feel proud to announce that our team at QCRI has successfully launched [AIDR(Artificial Intelligence for Disaster Response)](http://aidr.qcri.org/) platform at the [ICCM-2013](http://crisismappers.net/) conference. AIDR is a free, open-source, and easy-to-use platform to filter and classify relevant microblog messages during humanitarian crises. AIDR uses human intelligence and machine intelligence to collect and automatically tag up to thousands of messages per minute...[more](http://aidr.qcri.org/intro/) 
+
+<br/>
+**[May, 2013] - Best Paper Award**<br/>
+We were delighted to be awarded the best paper award for our paper "Extracting Information Nuggets from Disaster-Related Messages in Social Media"[[*PDF*]](https://dl.dropboxusercontent.com/u/7614003/my%20shared%20papers/Nuggets_iscram2013.pdf).  This described our recent work submitted to ISCRAM2013 where we explored the role of microblogging websites during emergencies...
+[more](http://imran.droppages.com/research+work/iscram13+best+paper)
+
+<br/>
+**[July, 2013] - Paper accepted** at JCDL-WOSP [PDF](https://dl.dropboxusercontent.com/u/7614003/my%20shared%20papers/NameDisambiguation_Imran_gillani_marchese2013.pdf) 
+
+-------------------------------
+<i><font size="1">
+The header images that I show on this website, those captured by me show caption "Taken by Imran", others are from the web. I hope you will like the nature as I do. Thanks for stopping by!
+</font></i>
+@image /images/molvino-lake.jpg
