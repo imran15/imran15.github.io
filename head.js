@@ -1,7 +1,7 @@
 <script type="text/javascript">
 function write_header() {
 
-document.write(
+document.write("
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
 <head profile="http://gmpg.org/xfn/11">
@@ -124,5 +124,5 @@ type="text/javascript"></script> -->
     </script>
 
 </head>
-    )
+    ")
 }
