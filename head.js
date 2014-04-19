@@ -1,7 +1,7 @@
 <script type="text/javascript">
 function write_header() {
 
-document.write("
+document.write('
 
 <head profile="http://gmpg.org/xfn/11">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -123,5 +123,5 @@ type="text/javascript"></script> -->
     </script>
 
 </head>
-    ")
+    ')
 }
