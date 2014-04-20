@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
 <head profile="http://gmpg.org/xfn/11">
@@ -16,7 +17,7 @@
 	<!--[if lt IE 7]>
 	<link href="/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
 	<![endif]-->
-	
+
 <!--	<script src="/js/jquery.min.js" type="text/javascript"></script> -->
 	<script src="/js/oceanmist.js" type="text/javascript"></script>
 
@@ -32,7 +33,7 @@
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
         </script>
-        
+
      <!--  Start FancyBox -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
@@ -85,25 +86,25 @@
 
 </script>
 
-<!-- Snow Effects 
+<!-- Snow Effects
 <script src="http://cloud.github.com/downloads/kopipejst/jqSnow/jquery.snow.js"
 type="text/javascript"></script> -->
 
-<!-- 
+<!--
 <script>
  $(document).ready( function(){
          $.fn.snow();
  });
  </script> -->
- 
+
  <!-- End Snow Effects -->
 
- 
+
  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
       google.load('visualization', '1');
     </script>
-    
+
     <script type="text/javascript">
       function drawVisualization() {
         // To see the data that this visualization uses, browse to
@@ -115,10 +116,10 @@ type="text/javascript"></script> -->
         });
         wrapper.draw();
       }
-       
+
        google.setOnLoadCallback(drawVisualization);
     </script>
- 
+
 </head>
 <body>
 	<div id="center">
@@ -130,94 +131,53 @@ type="text/javascript"></script> -->
 				<p id="strapline">Postdoctoral Researcher @ QCRI | Computer Scientist | Lifelong Learner</p>
 			</div>
 			<div id="photo">
-				<img src="/images/molvino-lake.jpg" alt="Ocean Mist" />
-				<div id="nav"><ul><li class="current"><a href="/">Home</a></li><li class=""><a href="/publications">publications</a></li><li class=""><a href="/research_home">research work</a></li></ul></div>
+				<img src="/images/mainpic03.jpg" alt="Ocean Mist" />
+				<div id="nav"><ul><li class=""><a href="/">Home</a></li><li class=""><a href="/publications">publications</a></li><li class="current"><a href="/research+work">research work</a></li></ul></div>
 			</div>
 			<div id="content">
 				<div id="mainCol">
-					<div class="article"><h1>Welcome</h1>
+					<div class="article"><h1>Best Paper Award</h1>
 
 <p><br/></p>
 
-<p><img src="/images/imran01.JPG" width="90" height="102" alt="Imran" ALIGN="Right" />
-<strong>Short bio:</strong> My full name is "Muhammad Imran", but you can call me "Imran". I work as a Postdoctoral researcher at the Social Computing group of the <a href="http://qcri.org/" target="_blank">Qatar Computing Research Institute (QCRI)</a>. Prior to QCRI, I was a PhD candidate at the University of Trento, where I received my PhD degree in Computer Science
-on March 2013. My current research interests include Social Computing, Crisis Computing, Crowdsourcing, and Web Engineering research areas. Combination of my research interests can be seen at <a href="http://aidr.qcri.org/" target="_blank">AIDR (Artificial Intelligence for Disaster Response)</a> project.
+<p>We were delighted to be awarded the <strong>Best Paper Award</strong> for our paper <a href="https://dl.dropboxusercontent.com/u/7614003/my%20shared%20papers/Nuggets_iscram2013.pdf"><strong>Extracting Information Nuggets from Disaster-Related Messages in Social Media</strong></a>.  This described our recent work submitted to ISCRAM2013 where we explored the role of microblogging websites during emergencies. Microblogging websites, such as Twitter, play an important role during a crisis. When a disaster strikes, hundreds of thousands of microbloggers come to Twitter to share their experiences. This huge number of tweets contain informative messages that can be used for situational awareness, and not only that, the challenging part of it is that a large number of these messages may be misleading, non-informative hence not interest of crisis responders. However, the informative messages may contain key information such as damage reports, donations services, casualties reports, shelter announcements, food availability, which is very crucial for crisis responders to obtain and to accordingly act upon.</p>
 
-During my PhD, I also taught two courses related to the Web Service Design and Web Engineering areas in the University of Trento from 2009-2012.</p>
+<p>In this paper, we introduced an automatic system which extracts information from microblog posts. Specifically, we focus on extracting brief, self-contained actionable messages relevant to disaster response. We used real-time supervised learning methods combined with machine learning approaches to perform classification and information extraction tasks. For experimentation and evaluation we collected Joplin 2011 tornado dataset that struck Joplin, Missouri in the late afternoon of Sunday, May 22, 2011. The 206,764 unique tweets were selected by monitoring the Twitter Streaming API using the hashtag #joplin a few hours after the tornado hit.</p>
 
-<p>I received a Master of Science in Computer Science degree with a distinction from Mohammad Ali Jinnah University, Islamabad, Pakistan in 2007. I'm a Oracle Certified Professional (OCP) and I obtained my OCP certification in 2004 from the Oracle Corporation, California, USA. </p>
+<p>We used CrowdFlower crowdsourcing platform to annotate 4,406 messages sampled uniformly at random from the dataset and asked workers to label using the ontology shown in the paper.  A set of multi-label classifiers were trained using various binary as well as linguistic features to automatically classify a tweet into one or more of the identified classes. For this purpose, we use Naïve Bayesian classifiers as implemented in Weka. High performance measures (i.e., precision, recall and auc) prove the viability of our system. </p>
 
-<p>
-If you are interested, here is my
-<font color=red size=2><b><a href="misc/Imran_CV_20140420.pdf">latest CV</a></b></font>.
+<p>The results of this applied and ongoing research will continue to inform the development of the Qatar Computing Research Institute’s (QCRI) <a href="http://aidr.qcri.org/"><strong>Artificial Intelligence for Disaster Response (AIDR) platform</strong></a>. The purpose of this platform is to provide humanitarian organizations like the United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA) with a platform that will enable them to create their own automatic classifiers on the fly.</p>
 
-</p>
-<p>
-<strong>Check my public profiles:</strong> <br/></p>
-<p><a title="Muhammad Imran" href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&amp;hl=en/"  target="_blank"><img src="/images/gscholar.jpeg" width="70" height="25" border="0" alt="Muhammad Imran" /></a>
-<a title="Muhammad Imran" href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" width="70" height="25" border="0" alt="Muhammad Imran" /></a>
-<a href="http://qa.linkedin.com/pub/muhammad-imran/1b/b4/a75"  target="_blank"> <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="85" height="27" border="0" alt="View Muhammad Imran's profile on LinkedIn"></a></p>
-
-<!-- <a href="https://twitter.com/mimran15" class="twitter-follow-button" data-show-count="false">Follow &#64;mimran15</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
--->
-
-<hr />
-
-<p><strong>Latest news:</strong></p>
-
-<p><strong>[Jan, 2014] - Paper accepted</strong> <br/>
-Our paper titled <em>"AIDR: Artificial Intelligence for Disaster Response"</em> has been accepted for publication at WWW-2014 conference.</p>
-
-<p><strong>[Jan, 2014] - Paper accepted</strong> <br/>
-<em>"Coordinating Human and Machine Intelligence to Classify Microblog Communications in Crises"</em>. Accepted for publication at the <em>11th International Conference on Information Systems for Crisis Response and Management</em>, Pennsylvania, USA. </p>
-
-<p><br/>
-<strong>[Nov, 2013] - AIDR platform launched</strong> <br/>
-I feel proud to announce that our team at QCRI has successfully launched <a href="http://aidr.qcri.org/" target="_blank">AIDR(Artificial Intelligence for Disaster Response)</a> platform at the <a href="http://crisismappers.net/">ICCM-2013</a> conference. AIDR is a free, open-source, and easy-to-use platform to filter and classify relevant microblog messages during humanitarian crises. AIDR uses human intelligence and machine intelligence to collect and automatically tag up to thousands of messages per minute...<a href="http://aidr.qcri.org/intro/">more</a> </p>
-
-<p><br/>
-<strong>[May, 2013] - Best Paper Award</strong><br/>
-We were delighted to be awarded the best paper award for our paper "Extracting Information Nuggets from Disaster-Related Messages in Social Media"<a href="https://dl.dropboxusercontent.com/u/7614003/my%20shared%20papers/Nuggets_iscram2013.pdf">[<em>PDF</em>]</a>.  This described our recent work submitted to ISCRAM2013 where we explored the role of microblogging websites during emergencies...
-<a href="http://imran.droppages.com/research+work/iscram13+best+paper">more</a></p>
-
-<p><br/>
-<strong>[July, 2013] - Paper accepted</strong> at JCDL-WOSP <a href="https://dl.dropboxusercontent.com/u/7614003/my%20shared%20papers/NameDisambiguation_Imran_gillani_marchese2013.pdf">PDF</a> </p>
-
-<hr />
-
-<p><i><font size="1">
-Header images shown on this website, those captured by me show caption "Taken by Imran", others are from the web. I hope you will like the nature as I do. Thanks for stopping by!
-</font></i></p>
+<p>See a follow-up to this work <a href="https://dl.dropboxusercontent.com/u/7614003/my%20shared%20papers/15swdm4-Imran.pdf"><em>here</em></a> which is published in WWW-2013.</p>
 </div>
 				</div>
-						<div id="subCol">
+				<div id="subCol">
 					<ul>
 						<li>
 							<h2>Latest News</h2>
 							<p class="pad">
 
-							Jan 2014 </br> 
+							Jan 2014 </br>
 							 - <a href="http://mimran.me/publications">Paper accepted at WWW-2014</a>
-							</br>	
+							</br>
 							 - <a href="http://mimran.me/publications">Paper accepted at ISCRAM-2014</a>
 
-							</br>							 
-							 May 2013 </br> 
+							</br>
+							 May 2013 </br>
 							 - <a href="http://mimran.me/research_work/iscram13_best_paper_award">Best paper award</a>
-							 
+
 							</br>
 							July 2013 </br>
 							- <a href="http://mimran.me/publications">Paper accepted at JCDL-WOSP-2013</a>
-						     
+
 							</p>
-							
-					         
+
+
 							<!-- p class="pad">The theme has been redeveloped for the DropPages platform. I love this theme, so for a few days I will keep this message. :)</p -->
 						</li>
 						<li class="pagenav">
 							<h2>social media</h2>
-							
+
 						</li>
 						<li class="pagenav">
 							<h2>Related Links</h2>
