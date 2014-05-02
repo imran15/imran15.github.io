@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+
 <head profile="http://gmpg.org/xfn/11">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -16,184 +16,325 @@
 	<link href="/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
 	<![endif]-->
 
-<script type="text/javascript">
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36932915-1']);
+		_gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36932915-1']);
-  _gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load('visualization', '1');
+	</script>
 
-</script>
- 
- <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load('visualization', '1');
-    </script>
-    
-    <script type="text/javascript">
-      function drawVisualization() {
-        // To see the data that this visualization uses, browse to
-        // http://spreadsheets.google.com/ccc?key=pCQbetd-CptGXxxQIG7VFIQ
-        var wrapper = new google.visualization.ChartWrapper({
-          dataSourceUrl: 'http://spreadsheets.google.com/tq?key=pCQbetd-CptGXxxQIG7VFIQ&range=B1:D11&pub=1',
-          chartType: 'PieChart',
-          containerId: 'visualization'
-        });
-        wrapper.draw();
-      }
-       
-       google.setOnLoadCallback(drawVisualization);
-    </script>
- 
+	<script type="text/javascript">
+		function drawVisualization() {
+			// To see the data that this visualization uses, browse to
+			// http://spreadsheets.google.com/ccc?key=pCQbetd-CptGXxxQIG7VFIQ
+			var wrapper = new google.visualization.ChartWrapper({
+				dataSourceUrl: 'http://spreadsheets.google.com/tq?key=pCQbetd-CptGXxxQIG7VFIQ&range=B1:D11&pub=1',
+				chartType: 'PieChart',
+				containerId: 'visualization'
+			});
+			wrapper.draw();
+		}
+
+		google.setOnLoadCallback(drawVisualization);
+	</script>
+
 </head>
+
 <body>
 	<div id="center">
 		<div id="container">
 			<div class="rightShade"></div>
 			<div class="leftShade"></div>
 			<div id="header">
-				<p id="logo"><a href="/">Imran's Homepage</a></p>
+				<p id="logo">
+					<a href="/">Imran's Homepage</a>
+				</p>
 				<p id="strapline">Postdoctoral Researcher @ QCRI | Computer Scientist | Lifelong Learner</p>
 			</div>
 			<div id="photo">
 				<img src="/images/maldives-840x260.jpg" alt="Ocean Mist" />
-				<div id="nav"><ul>
-					<li class=""><a href="/">Home</a></li>
-					<li class="current"><a href="/publications">Publications</a></li>
-					<li class=""><a href="/research_home">Research work</a></li>
-					<li class=""><a href="/teaching">Teaching</a></li>
+				<div id="nav">
+					<ul>
+						<li class="">
+							<a href="/">Home</a>
+						</li>
+						<li class="current">
+							<a href="/publications">Publications</a>
+						</li>
+						<li class="">
+							<a href="/research_home">Research work</a>
+						</li>
+						<li class="">
+							<a href="/teaching">Teaching</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 			<div id="content">
 				<div id="mainCol">
-					<div class="article"><h1>Publications</h1>
+					<div class="article">
+						<h1>Publications</h1>
 
-<p><br/></p>
+						<p>
+							<br/>
+						</p>
 
-<p><strong>Under review, or in preparation</strong>
-<br/></p>
+						<p>
+							<strong>Under review, or in preparation</strong>
+							<br/>
+						</p>
 
-<ul>
-<li>Muhammad Imran, Ioanna Lykourentzou, and Carlos Castillo.
-<a href="http://arxiv.org/pdf/1310.5463v1"><b>Engineering Crowdsourced Stream Processing Systems.</b></a>
-<em>Pre-print</em>, arxiv.org, Oct 2013. [<a href="http://arxiv.org/pdf/1310.5463v1"><em>PDF</em></a>]</li>
-</ul>
+						<ul>
+							<li>Muhammad Imran, Ioanna Lykourentzou, and Carlos Castillo.
+								<a href="http://arxiv.org/pdf/1310.5463v1">
+									<b>Engineering Crowdsourced Stream Processing Systems.</b>
+								</a>
+								<em>Pre-print</em>, arxiv.org, Oct 2013. [
+								<a href="http://arxiv.org/pdf/1310.5463v1">
+									<em>PDF</em>
+								</a>]</li>
+						</ul>
 
-<p><br/>
-<strong>2014</strong>
-<br/></p>
+						<p>
+							<br/>
+							<strong>2014</strong>
+							<br/>
+						</p>
 
-<ul>
-<li><p>Muhammad Imran, Carlos Castillo, Ji Lucas, Patrick Meier, and Sarah Vieweg.
-<a href="/papers/imran_castillo_lucas_meier_vieweg_www2014.pdf"><b>AIDR: Artificial Intelligence for Disaster Response.</b></a> WWW 2014. Seoul, Korea.</p></li>
-<li><p>Muhammad Imran, Carlos Castillo, Ji Lucas, Patrick Meier, and Jakob Rogstadius.
-<a href="/papers/imran_carlos_ji_patrick_jakob_iscram2014.pdf"><b>Coordinating Human and Machine Intelligence to Classify Microblog Communications in Crises.</b></a>
-<em>11th International Conference on Information Systems for Crisis Response and Management</em>, 2014. Pennsylvania, USA.  </p></li>
+						<ul>
+							<li>
+								<p>Muhammad Imran, Carlos Castillo, Ji Lucas, Patrick Meier, and Sarah Vieweg.
+									<a href="/papers/imran_castillo_lucas_meier_vieweg_www2014.pdf">
+										<b>AIDR: Artificial Intelligence for Disaster Response.</b>
+									</a>WWW 2014. Seoul, Korea.</p>
+							</li>
+							<li>
+								<p>Muhammad Imran, Carlos Castillo, Ji Lucas, Patrick Meier, and Jakob Rogstadius.
+									<a href="/papers/imran_carlos_ji_patrick_jakob_iscram2014.pdf">
+										<b>Coordinating Human and Machine Intelligence to Classify Microblog Communications in Crises.</b>
+									</a>
+									<em>11th International Conference on Information Systems for Crisis Response and Management</em>, 2014. Pennsylvania, USA.</p>
+							</li>
 
-  <li><p>Muhammad Moeen Uddin, Muhammad Imran, Hassan Sajjad.
-        <a href="/papers/moeen_imran_sajjad_twitter-user-classes_2014.pdf"><b>Understanding Types of Users on Twitter.</b></a> Accepted to appear in SocialCom-Stanford 2014, CA, USA.</p></li>
+							<li>
+								<p>Muhammad Moeen Uddin, Muhammad Imran, Hassan Sajjad.
+									<a href="/papers/moeen_imran_sajjad_twitter-user-classes_2014.pdf">
+										<b>Understanding Types of Users on Twitter.</b>
+									</a>Accepted to appear in SocialCom-Stanford 2014, CA, USA.</p>
+							</li>
 
-    <li><p>Muhammad Imran and Carlos Castillo.
-<a href="/papers/imran_carlos_phda2014.pdf"><b>Volunteer-powered Automatic Classification of Social Media Messages for Public Health in AIDR</b>.</a>
-To appear in <em>Public Health in the Digital Age workshop in WWW 2014</em>, Seoul, Korea. </p></li>
-</ul>
+							<li>
+								<p>Muhammad Imran and Carlos Castillo.
+									<a href="/papers/imran_carlos_phda2014.pdf">
+										<b>Volunteer-powered Automatic Classification of Social Media Messages for Public Health in AIDR</b>.</a>
+									To appear in
+									<em>Public Health in the Digital Age workshop in WWW 2014</em>, Seoul, Korea.</p>
+							</li>
+						</ul>
 
-<p><br/>
-<strong>2013</strong>
-<br/></p>
+						<p>
+							<br/>
+							<strong>2013</strong>
+							<br/>
+						</p>
 
-<ul>
-<li><p>Muhammad Imran, Syed Zeeshan Haider Gillani and Maurizio Marchese.
-<a href="/papers/imran_zeeshan_maurizio_nameDisambiguation2013.pdf">A Real-time Heuristic-based Unsupervised Method for Name Disambiguation in Digital Libraries.</a>
-<em>JCDL-2013 WOSP</em>, July 2013, Indianapolis, USA. [<a href="http://www.dlib.org/dlib/september13/imran/09imran.html"><em>Link</em></a>][<a href="/papers/imran_zeeshan_maurizio_nameDisambiguation2013.pdf"><em>PDF</em></a>]</p></li>
-<li><p>Muhammad Imran, Shady Elbassuoni, Carlos Castillo, Fernando Diaz and Patrick Meier.
-<a href="/papers/imran_shady_carlos_fernando_patrick_practical_2013.pdf">Practical Extraction of Disaster-Relevant Information from Social Media.</a>
-<em>WWW-2013 SWDM</em>, May 2013, Rio de Janeiro, Brazil. [<a href="/papers/imran_shady_carlos_fernando_patrick_practical_2013.pdf"><em>PDF</em></a>] </p></li>
-<li><p><strong>[BEST PAPER AWARD]</strong> Muhammad Imran, Shady Elbassuoni, Carlos Castillo, Fernando Diaz and Patrick Meier.
-<a href="/papers/imran_shady_carlos_fernando_patrick_iscram2013.pdf">Extracting Information Nuggets from Disaster-Related Messages in Social Media.</a>
-<em>ISCRAM-2013</em>, May 2013, Baden-Baden, Germany. [<a href="/papers/imran_shady_carlos_fernando_patrick_iscram2013.pdf"><em>PDF</em></a>]</p></li>
-<li><p>Soudip Roy Chowdhury, Muhammad Imran, Muhammad Rizwan Asghar, Sihem Amer-Yahia and Carlos Castillo.
-<a href="/papers/soudip_imran_asghar_sihem_castillo_tweet4act2013.pdf">Tweet4act: Using Incident-Specific Profiles for Classifying Crisis-Related Messages.</a>
-<em>ISCRAM-2013</em>, May 2013, Baden-Baden, Germany. [<a href="/papers/soudip_imran_asghar_sihem_castillo_tweet4act2013.pdf"><em>PDF</em></a>] </p></li>
-<li><p>Muhammad Imran.
-<a href="http://arxiv.org/pdf/1312.7520v3">An Effective End-user Development Approach Through Domain-specific Mashups for Research Impact Evaluation.</a>
-<em>UniTN-2013</em> March 2013, PhD dissertation, [<a href="http://arxiv.org/pdf/1312.7520v3"><em>PDF</em></a>]</p></li>
-</ul>
+						<ul>
+							<li>
+								<p>Muhammad Imran, Syed Zeeshan Haider Gillani and Maurizio Marchese.
+									<a href="/papers/imran_zeeshan_maurizio_nameDisambiguation2013.pdf">A Real-time Heuristic-based Unsupervised Method for Name Disambiguation in Digital Libraries.</a>
+									<em>JCDL-2013 WOSP</em>, July 2013, Indianapolis, USA. [
+									<a href="http://www.dlib.org/dlib/september13/imran/09imran.html">
+										<em>Link</em>
+									</a>][
+									<a href="/papers/imran_zeeshan_maurizio_nameDisambiguation2013.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Muhammad Imran, Shady Elbassuoni, Carlos Castillo, Fernando Diaz and Patrick Meier.
+									<a href="/papers/imran_shady_carlos_fernando_patrick_practical_2013.pdf">Practical Extraction of Disaster-Relevant Information from Social Media.</a>
+									<em>WWW-2013 SWDM</em>, May 2013, Rio de Janeiro, Brazil. [
+									<a href="/papers/imran_shady_carlos_fernando_patrick_practical_2013.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>
+									<strong>[BEST PAPER AWARD]</strong>Muhammad Imran, Shady Elbassuoni, Carlos Castillo, Fernando Diaz and Patrick Meier.
+									<a href="/papers/imran_shady_carlos_fernando_patrick_iscram2013.pdf">Extracting Information Nuggets from Disaster-Related Messages in Social Media.</a>
+									<em>ISCRAM-2013</em>, May 2013, Baden-Baden, Germany. [
+									<a href="/papers/imran_shady_carlos_fernando_patrick_iscram2013.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Soudip Roy Chowdhury, Muhammad Imran, Muhammad Rizwan Asghar, Sihem Amer-Yahia and Carlos Castillo.
+									<a href="/papers/soudip_imran_asghar_sihem_castillo_tweet4act2013.pdf">Tweet4act: Using Incident-Specific Profiles for Classifying Crisis-Related Messages.</a>
+									<em>ISCRAM-2013</em>, May 2013, Baden-Baden, Germany. [
+									<a href="/papers/soudip_imran_asghar_sihem_castillo_tweet4act2013.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Muhammad Imran.
+									<a href="http://arxiv.org/pdf/1312.7520v3">An Effective End-user Development Approach Through Domain-specific Mashups for Research Impact Evaluation.</a>
+									<em>UniTN-2013</em>March 2013, PhD dissertation, [
+									<a href="http://arxiv.org/pdf/1312.7520v3">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+						</ul>
 
-<p><br/> 
-<strong>2012</strong>
-<br/> </p>
+						<p>
+							<br/>
+							<strong>2012</strong>
+							<br/>
+						</p>
 
-<ul>
-<li><p>Muhammad Imran, Stefano Soi, Felix Kling, Florian Daniel, Fabio Casati and Maurizio Marchese. 
-<a href="/papers/imran_soi_felix_icwe2012.pdf">On the Systematic Development of Domain-Specific Mashup Tools for End-Users.</a>
-<em>ICWE-2012</em>, July 2012, Pages 291-298, Berlin, Germany.
-[<a href="http://www.springerlink.com/content/e5310254324j104r/"><em>Link</em></a>] </p></li>
-<li><p>Florian Daniel, Muhammad Imran, Stefano Soi, Antonella De Angeli, Christopher R. Wilkinson, Fabio Casati and Maurizio Marchese. 
-<a href="/papers/florian_imran_soi_IJNGC2012.pdf">Developing Mashup Tools for End-Users: On the Importance of the Application Domain.</a>
-<em>International Journal of Next-Generation Computing (IJNGC)</em>, 2012.
-[<a href="http://perpetualinnovation.net/ojs/index.php/ijngc/article/viewArticle/156"><em>Link</em></a>]</p></li>
-<li><p>Muhammad Imran, Florian Daniel, Fabio Casati, Maurizio Marchese. ResEval Mash: 
-<a href="/papers/imran_florian_fabio_maurizio_CHI2012.pdf">A Mashup Tool that Speaks the Language of the User. <em>CHI-2012</em>, Austin, USA.</a>
-[<a href="https://dl.dropboxusercontent.com/u/7614003/bibs/muhammad2012reseval-chi.bib"><em>bib</em></a>|<a href="http://dl.acm.org/citation.cfm?id=2223734"><em>acm</em></a>]</p></li>
-<li><p>Florian Daniel, Muhammad Imran, Felix Kling, Stefano Soi, Fabio Casati and Maurizio Marchese. 
-<a href="/papers/florian_imran_felix_www2012.pdf">Developing Domain-Specific Mashup Tools for End Users. <em>WWW-2012</em>, 2012, France, Lyon.</a>
-[<a href="http://dl.acm.org/citation.cfm?id=2188092"><em>Link</em></a>]</p></li>
-<li><p>Muhammad Imran, Felix Kling, Stefano Soi, Florian Daniel, Fabio Casati and Maurizio Marchese. 
-<a href="/papers/imran_felix_soi_reseval_www2012.pdf">ResEval Mash: A Mashup Tool for Advanced Research Evaluation.</a>
-<em>WWW-2012</em>, 2012, France, Lyon.
-[<a href="https://dl.dropboxusercontent.com/u/7614003/bibs/imran2012reseval.bib"><em>bib</em></a>|<a href="http://dl.acm.org/citation.cfm?id=2188049"><em>acm</em></a>]</p></li>
-</ul>
+						<ul>
+							<li>
+								<p>Muhammad Imran, Stefano Soi, Felix Kling, Florian Daniel, Fabio Casati and Maurizio Marchese.
+									<a href="/papers/imran_soi_felix_icwe2012.pdf">On the Systematic Development of Domain-Specific Mashup Tools for End-Users.</a>
+									<em>ICWE-2012</em>, July 2012, Pages 291-298, Berlin, Germany. [
+									<a href="http://www.springerlink.com/content/e5310254324j104r/">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Florian Daniel, Muhammad Imran, Stefano Soi, Antonella De Angeli, Christopher R. Wilkinson, Fabio Casati and Maurizio Marchese.
+									<a href="/papers/florian_imran_soi_IJNGC2012.pdf">Developing Mashup Tools for End-Users: On the Importance of the Application Domain.</a>
+									<em>International Journal of Next-Generation Computing (IJNGC)</em>, 2012. [
+									<a href="http://perpetualinnovation.net/ojs/index.php/ijngc/article/viewArticle/156">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Muhammad Imran, Florian Daniel, Fabio Casati, Maurizio Marchese. ResEval Mash:
+									<a href="/papers/imran_florian_fabio_maurizio_CHI2012.pdf">A Mashup Tool that Speaks the Language of the User.
+										<em>CHI-2012</em>, Austin, USA.</a>
+									[
+									<a href="https://dl.dropboxusercontent.com/u/7614003/bibs/muhammad2012reseval-chi.bib">
+										<em>bib</em>
+									</a>|
+									<a href="http://dl.acm.org/citation.cfm?id=2223734">
+										<em>acm</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Florian Daniel, Muhammad Imran, Felix Kling, Stefano Soi, Fabio Casati and Maurizio Marchese.
+									<a href="/papers/florian_imran_felix_www2012.pdf">Developing Domain-Specific Mashup Tools for End Users.
+										<em>WWW-2012</em>, 2012, France, Lyon.</a>
+									[
+									<a href="http://dl.acm.org/citation.cfm?id=2188092">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Muhammad Imran, Felix Kling, Stefano Soi, Florian Daniel, Fabio Casati and Maurizio Marchese.
+									<a href="/papers/imran_felix_soi_reseval_www2012.pdf">ResEval Mash: A Mashup Tool for Advanced Research Evaluation.</a>
+									<em>WWW-2012</em>, 2012, France, Lyon. [
+									<a href="https://dl.dropboxusercontent.com/u/7614003/bibs/imran2012reseval.bib">
+										<em>bib</em>
+									</a>|
+									<a href="http://dl.acm.org/citation.cfm?id=2188049">
+										<em>acm</em>
+									</a>]</p>
+							</li>
+						</ul>
 
-<p><br/> 
-<strong>2011</strong>
-<br/> </p>
+						<p>
+							<br/>
+							<strong>2011</strong>
+							<br/>
+						</p>
 
-<ul>
-<li><p>Muhammad Imran, Maurizio Marchese, Fabio Casati. 
-<a href="/papers/imran_maurizio_fabio_2011.pdf">Leveraging Mashups Approaches to Address Research Evaluation Challenges.</a>
-<em>Proceedings of 14th International Multitopic Conference</em>, 2011, pp.17-22.
-[<a href="/papers/imran_maurizio_fabio_2011.pdf"><em>PDF</em></a>]</p></li>
-<li><p>Cristhian Parra, Muhammad Imran, Daniil Mirylenka, Florian Daniel, Fabio Casati, and Maurizio Marchese. 
-<a href="/papers/para_imran_daniil_sebd2011.pdf">A Scientific Resource Space for Advanced Research Evaluation Scenarios.</a>
-<em>Proceedings of SEBD</em>, 2011, Springer.
-[<a href="/papers/para_imran_daniil_sebd2011.pdf"><em>PDF</em></a>]</p></li>
-<li><p>[Book Chapter] Search Computing, Trends and Development (Lecture Notes in Computer Science / Information Systems and Applications, incl. Internet/Web, and HCI). Stefano Ceri, Marco Brambilla (Editor). 2011, Springer. ISBN: 978-3642196676.
-[<a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-642-19667-6"><em>Link</em></a>]</p></li>
-<li><p>M. Baez, A. Birukou, I. Brito, F. Casati, R. Chenu, M. Imran, J.J. Jara, J. Madrenas Ciurana, M. Marchese, A. Mussi, C. Parra, M. Passamani, A. Ragone, J. R. Wakeling. 
-<a href="/papers/marcus_et_at_liquidpub_2011.pdf">Design of the Liquid Publications Integrated Platform.</a><br />
-<em>Liquidpub</em>, 2011. [<a href="/papers/marcus_et_at_liquidpub_2011.pdf"><em>PDF</em></a>]</p></li>
-</ul>
+						<ul>
+							<li>
+								<p>Muhammad Imran, Maurizio Marchese, Fabio Casati.
+									<a href="/papers/imran_maurizio_fabio_2011.pdf">Leveraging Mashups Approaches to Address Research Evaluation Challenges.</a>
+									<em>Proceedings of 14th International Multitopic Conference</em>, 2011, pp.17-22. [
+									<a href="/papers/imran_maurizio_fabio_2011.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Cristhian Parra, Muhammad Imran, Daniil Mirylenka, Florian Daniel, Fabio Casati, and Maurizio Marchese.
+									<a href="/papers/para_imran_daniil_sebd2011.pdf">A Scientific Resource Space for Advanced Research Evaluation Scenarios.</a>
+									<em>Proceedings of SEBD</em>, 2011, Springer. [
+									<a href="/papers/para_imran_daniil_sebd2011.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>[Book Chapter] Search Computing, Trends and Development (Lecture Notes in Computer Science / Information Systems and Applications, incl. Internet/Web, and HCI). Stefano Ceri, Marco Brambilla (Editor). 2011, Springer. ISBN: 978-3642196676. [
+									<a href="http://www.springer.com/computer/database+management+%26+information+retrieval/book/978-3-642-19667-6">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>M. Baez, A. Birukou, I. Brito, F. Casati, R. Chenu, M. Imran, J.J. Jara, J. Madrenas Ciurana, M. Marchese, A. Mussi, C. Parra, M. Passamani, A. Ragone, J. R. Wakeling.
+									<a href="/papers/marcus_et_at_liquidpub_2011.pdf">Design of the Liquid Publications Integrated Platform.</a>
+									<br />
+									<em>Liquidpub</em>, 2011. [
+									<a href="/papers/marcus_et_at_liquidpub_2011.pdf">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+						</ul>
 
-<p><br/> 
-<strong>2010</strong>
-<br/> </p>
+						<p>
+							<br/>
+							<strong>2010</strong>
+							<br/>
+						</p>
 
-<ul>
-<li><p>Muhammad Imran, Florian Daniel, Fabio Casati, Maurizio Marchese. 
-<a href="https://sites.google.com/site/mimran15/A%20Mashup%20Platform%20for%20Research%20Evaluation.pdf?attredirects=0">A Mashup Platform for Research Evaluation.</a> 
-<em>Proceedings of ECSS 2010</em>, 2010, Prague, Czech Republic.
-[<a href="https://sites.google.com/site/mimran15/A%20Mashup%20Platform%20for%20Research%20Evaluation.pdf?attredirects=0"><em>PDF</em></a>]</p></li>
-<li><p>Alessandro Bozzon, Marco Brambilla, Muhammad Imran, Florian Daniel, Fabio Casati. 
-<a href="http://www.springerlink.com/content/9120hm8306547t17/">On Development Practices for End Users.</a> 
-<em>New Trends in Search Computing</em>, May 2010, Springer.
-[<a href="http://www.springerlink.com/content/9120hm8306547t17/"><em>Link</em></a>]</p></li>
-<li><p>Junaid Ahsenali Chaudhry, Muhammad Imran. 
-Autonomic Fault Identification for Ubiquitous Self Healing Systems. 
-<em>Symposia and Workshops on Ubiquitous, Autonomic and Trusted Computing</em>, 2010, IEEE.
- [<a href="http://www.computer.org/portal/web/csdl/doi/10.1109/UIC-ATC.2010.84"><em>Link</em></a>]</p></li>
-<li><p>Muhammad Imran, Marchese Maurizio, Ragone Azzurra, Birukou Aliaksandr, Casati Fabio and Jara Laconich Juan Jose. 
-<a href="http://eprints.biblio.unitn.it/archive/00001817/">ResEval: An Open and Resource-oriented Research Impact Evaluation tool.</a> 
-<em>UNITN</em>, eprints.biblio.unitn.it, Feb. 2010.
-[<a href="http://eprints.biblio.unitn.it/archive/00001817/"><em>Link</em></a>]</p></li>
-</ul>
-</div>
+						<ul>
+							<li>
+								<p>Muhammad Imran, Florian Daniel, Fabio Casati, Maurizio Marchese.
+									<a href="https://sites.google.com/site/mimran15/A%20Mashup%20Platform%20for%20Research%20Evaluation.pdf?attredirects=0">A Mashup Platform for Research Evaluation.</a>
+									<em>Proceedings of ECSS 2010</em>, 2010, Prague, Czech Republic. [
+									<a href="https://sites.google.com/site/mimran15/A%20Mashup%20Platform%20for%20Research%20Evaluation.pdf?attredirects=0">
+										<em>PDF</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Alessandro Bozzon, Marco Brambilla, Muhammad Imran, Florian Daniel, Fabio Casati.
+									<a href="http://www.springerlink.com/content/9120hm8306547t17/">On Development Practices for End Users.</a>
+									<em>New Trends in Search Computing</em>, May 2010, Springer. [
+									<a href="http://www.springerlink.com/content/9120hm8306547t17/">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Junaid Ahsenali Chaudhry, Muhammad Imran. Autonomic Fault Identification for Ubiquitous Self Healing Systems.
+									<em>Symposia and Workshops on Ubiquitous, Autonomic and Trusted Computing</em>, 2010, IEEE. [
+									<a href="http://www.computer.org/portal/web/csdl/doi/10.1109/UIC-ATC.2010.84">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+							<li>
+								<p>Muhammad Imran, Marchese Maurizio, Ragone Azzurra, Birukou Aliaksandr, Casati Fabio and Jara Laconich Juan Jose.
+									<a href="http://eprints.biblio.unitn.it/archive/00001817/">ResEval: An Open and Resource-oriented Research Impact Evaluation tool.</a>
+									<em>UNITN</em>, eprints.biblio.unitn.it, Feb. 2010. [
+									<a href="http://eprints.biblio.unitn.it/archive/00001817/">
+										<em>Link</em>
+									</a>]</p>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div id="subCol">
 					<ul>
@@ -201,46 +342,59 @@ Autonomic Fault Identification for Ubiquitous Self Healing Systems.
 							<h2>Latest News</h2>
 							<p class="pad">
 
-							Jan 2014 </br> 
-							 - <a href="/publications">Paper accepted at WWW-2014</a>
-							</br>	
-							 - <a href="/publications">Paper accepted at ISCRAM-2014</a>
+								Jan 2014</br>
+								-
+								<a href="/publications">Paper accepted at WWW-2014</a>
+								</br>
+								-
+								<a href="/publications">Paper accepted at ISCRAM-2014</a>
 
-							</br>							 
-							 May 2013 </br> 
-							 - <a href="/research_work/iscram13_best_paper">Best paper award</a>
-							 
-							</br>
-							July 2013 </br>
-							- <a href="/publications">Paper accepted at JCDL-WOSP-2013</a>
-						     
+								</br>
+								May 2013</br>
+								-
+								<a href="/research_work/iscram13_best_paper">Best paper award</a>
+
+								</br>
+								July 2013</br>
+								-
+								<a href="/publications">Paper accepted at JCDL-WOSP-2013</a>
+
 							</p>
-							
-					         
+
+
 							<!-- p class="pad">The theme has been redeveloped for the DropPages platform. I love this theme, so for a few days I will keep this message. :)</p -->
 						</li>
 						<li class="pagenav">
 							<h2>publications</h2>
-							
+
 						</li>
 						<li class="pagenav">
 							<h2>Related Links</h2>
 							<ul>
-								<li><a href="/research_work/social_media">Current research areas</li>
-								<li> </li>
-								<li><a href="/research_work/research_talks">Research Talks</a></li>
-								<li> </li>
-								<li><a href="/research_work/work_at_qcri">Work experience at QCRI</a></li>
-								<li> </li>
-								<li><a href="/research_work/research_projects">Research projects</a></li>
+								<li>
+									<a href="/research_work/social_media">Current research areas</li>
+								<li></li>
+								<li>
+									<a href="/research_work/research_talks">Research Talks</a>
+								</li>
+								<li></li>
+								<li>
+									<a href="/research_work/work_at_qcri">Work experience at QCRI</a>
+								</li>
+								<li></li>
+								<li>
+									<a href="/research_work/research_projects">Research projects</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div id="footer">
-				  <p> &copy; 2009-2014 Muhammad Imran</p>
+				<p>&copy; 2009-2014 Muhammad Imran</p>
 			</div>
 		</div>
 	</div>
-</body></html>
+</body>
+
+</html>
