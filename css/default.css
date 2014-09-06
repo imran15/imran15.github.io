@@ -1,5 +1,5 @@
 * {font-size: 100%; margin: 0; padding: 0; line-height: 1.3em;}
-body {position: relative; background: url(../images/bkg.png) top repeat-x; font: 75.75% Verdana, Helvetica, Arial, sans-serif; text-align: center; padding-bottom: 40px;}
+body {position: relative; background: url(../images/bkg.png) top repeat-x; font: 72.75% Verdana, Helvetica, Arial, sans-serif; text-align: center; padding-bottom: 40px;}
 #center {width: 68em; margin: 24px auto; text-align: left;}
 #container {position: relative; width: 68em; float: left; background: url(../images/rightShade2.png) 50em repeat-y; margin-bottom: 40px;}
 #header {position: relative; background-image: url(../images/header.png) bottom repeat-x; padding: 2.5em 3em; background: url(../images/header.png) bottom repeat-x;}
@@ -98,7 +98,7 @@ p.title {text-transform: none;}
 h1, h2, h3, h4, h5, h6 {font-family: Helvetica, Arial, sans-serif; font-weight: normal;}
 code, pre {font: 1.2em "Courier New", Courier, monospace; color: #bb5800;}
 pre {color: #4f7c00}
-h1 {margin: 0 0 1em;} 
+h1 {margin: 0 0 1em;}
 p, code, pre, h1, h2, h3, h4, h5, h6 {margin: 0 0 1em;}
 .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {margin: 1em 0 0.5em;}
 h2 {font-size: 1.8em;}
@@ -108,7 +108,7 @@ h5 {font-size: 1.3em; font-weight: bold;}
 h6 {font-size: 1.2em; font-weight: bold;}
 a, a:visited {text-decoration: none;}
 
-#mainCol ul, #mainCol ol {margin: 0 0 1em 2em;} 
+#mainCol ul, #mainCol ol {margin: 0 0 1em 2em;}
 #mainCol ul ul, #mainCol ul ol, #mainCol ol ol, #content ol ul {margin-bottom: 0;}
 #mainCol dl {margin: 0 0 1em 0;}
 .entry dt {font-weight: bold;}
