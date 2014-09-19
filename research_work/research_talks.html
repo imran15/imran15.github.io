@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-GB">
+
 <head profile="http://gmpg.org/xfn/11">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -16,173 +16,221 @@
 	<link href="/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
 	<![endif]-->
 
-<!--	<script src="/js/jquery.min.js" type="text/javascript"></script> -->
+	<!--	<script src="/js/jquery.min.js" type="text/javascript"></script> -->
 	<script src="/js/oceanmist.js" type="text/javascript"></script>
 
-   <!-- Adding DISQUS scripts for commenting system -->
-   <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'mimran'; // required: replace example with your forum shortname
+	<!-- Adding DISQUS scripts for commenting system -->
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'mimran'; // required: replace example with your forum shortname
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script');
+			dsq.type = 'text/javascript';
+			dsq.async = true;
+			dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
 
-     <!--  Start FancyBox -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<!--  Start FancyBox -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-<!-- Add mousewheel plugin (this is optional) -->
-<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
-<!-- Add fancyBox -->
-<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
 
-<!-- Optionally add helpers - button, thumbnail and/or media -->
-<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
 
-<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
-<script type="text/javascript">
-	$(document).ready(function() {
-	$(".fancybox-button").fancybox({
-		prevEffect		: 'none',
-		nextEffect		: 'none',
-		closeBtn		: false,
-		helpers		: {
-			title	: { type : 'inside' },
-			buttons	: {},
-			thumbs	: {
-				width	: 40,
-				height	: 40
-			}
-		}
-	});
-});
-</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox-button").fancybox({
+				prevEffect: 'none',
+				nextEffect: 'none',
+				closeBtn: false,
+				helpers: {
+					title: {
+						type: 'inside'
+					},
+					buttons: {},
+					thumbs: {
+						width: 40,
+						height: 40
+					}
+				}
+			});
+		});
+	</script>
 
-<!-- End Fancy Box -->
+	<!-- End Fancy Box -->
 
-<script type="text/javascript">
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36932915-1']);
+		_gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36932915-1']);
-  _gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!-- Snow Effects
+	<!-- Snow Effects
 <script src="http://cloud.github.com/downloads/kopipejst/jqSnow/jquery.snow.js"
 type="text/javascript"></script> -->
 
-<!--
+	<!--
 <script>
  $(document).ready( function(){
          $.fn.snow();
  });
  </script> -->
 
- <!-- End Snow Effects -->
+	<!-- End Snow Effects -->
 
 
- <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load('visualization', '1');
-    </script>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load('visualization', '1');
+	</script>
 
-    <script type="text/javascript">
-      function drawVisualization() {
-        // To see the data that this visualization uses, browse to
-        // http://spreadsheets.google.com/ccc?key=pCQbetd-CptGXxxQIG7VFIQ
-        var wrapper = new google.visualization.ChartWrapper({
-          dataSourceUrl: 'http://spreadsheets.google.com/tq?key=pCQbetd-CptGXxxQIG7VFIQ&range=B1:D11&pub=1',
-          chartType: 'PieChart',
-          containerId: 'visualization'
-        });
-        wrapper.draw();
-      }
+	<script type="text/javascript">
+		function drawVisualization() {
+			// To see the data that this visualization uses, browse to
+			// http://spreadsheets.google.com/ccc?key=pCQbetd-CptGXxxQIG7VFIQ
+			var wrapper = new google.visualization.ChartWrapper({
+				dataSourceUrl: 'http://spreadsheets.google.com/tq?key=pCQbetd-CptGXxxQIG7VFIQ&range=B1:D11&pub=1',
+				chartType: 'PieChart',
+				containerId: 'visualization'
+			});
+			wrapper.draw();
+		}
 
-       google.setOnLoadCallback(drawVisualization);
-    </script>
+		google.setOnLoadCallback(drawVisualization);
+	</script>
 
 </head>
+
 <body>
 	<div id="center">
 		<div id="container">
 			<div class="rightShade"></div>
 			<div class="leftShade"></div>
 			<div id="header">
-				<p id="logo"><a href="/">Imran's Homepage</a></p>
+				<p id="logo">
+					<a href="/">Imran's Homepage</a>
+				</p>
 				<p id="strapline">Postdoctoral Researcher @ QCRI | Computer Scientist | Lifelong Learner</p>
 			</div>
 			<div id="photo">
 				<img src="/images/mainpic03.jpg" alt="Ocean Mist" />
-				<div id="nav"><ul><li class=""><a href="/">Home</a></li><li class=""><a href="/publications">Publications</a></li><li class="current"><a href="/research_home">Research work</a></li></ul></div>
+				<div id="nav">
+					<ul>
+						<li class="">
+							<a href="/">Home</a>
+						</li>
+						<li class="">
+							<a href="/publications">Publications</a>
+						</li>
+						<li class="current">
+							<a href="/research_home">Research work</a>
+						</li>
+						<li class="">
+							<a href="/teaching">Teaching</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div id="content">
 				<div id="mainCol">
-					<div class="article"><h1>Research Talks</h1>
+					<div class="article">
+						<h1>Research Talks</h1>
 
-<p><br/></p>
+						<p>
+							<br/>
+						</p>
 
 						<ul>
-<li>This work has been presented at the <strong>11th International Conference on Information Systems for Crisis Response and Management (ISCRAM)</strong>
-in Pennsylvania, USA. The work describes AIDR platform, in particular how to address challenges and issues when human and machine computation work together.</li>
-</ul>
+							<li>This work has been presented at the
+								<strong>11th International Conference on Information Systems for Crisis Response and Management (ISCRAM)</strong>
+								in Pennsylvania, USA. The work describes AIDR platform, in particular how to address challenges and issues when human and machine computation work together.</li>
+						</ul>
 
-<p><br/>
-<iframe src="//www.slideshare.net/slideshow/embed_code/34964254" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/mimran15/iscram14-imran-2" title="Coordinating Human and Machine Intelligence to Classify Microblog Communica0ons in Crises" target="_blank">Coordinating Human and Machine Intelligence to Classify Microblog Communica0ons in Crises</a> </strong> from <strong><a href="http://www.slideshare.net/mimran15" target="_blank">Muhammad Imran</a></strong> </div>
+						<p>
+							<br/>
+							<iframe src="//www.slideshare.net/slideshow/embed_code/34964254" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+							<div style="margin-bottom:5px">
+								<strong>
+									<a href="https://www.slideshare.net/mimran15/iscram14-imran-2" title="Coordinating Human and Machine Intelligence to Classify Microblog Communica0ons in Crises" target="_blank">Coordinating Human and Machine Intelligence to Classify Microblog Communica0ons in Crises</a>
+								</strong>from
+								<strong>
+									<a href="http://www.slideshare.net/mimran15" target="_blank">Muhammad Imran</a>
+								</strong>
+							</div>
 
-<p><br/><br/></p>
+							<p>
+								<br/>
+								<br/>
+							</p>
 
-<ul>
-<li>The following work was presented at the <strong>10th International Conference on Information Systems for Crisis Response and Management (ISCRAM)</strong>
-in Baden-Baden, Germany. This presentation describes our work which shows the importance of microblogging websites such as Twitter, Facebook
-and the huge number of informative contents that people post over. We believe that this information can contribute to situational awareness at
-the time of disasters. Specifically, the work shows the classification, and information extractions of those valuable, actionable
-informative messages that people post during emergencies.</li>
-</ul>
+							<ul>
+								<li>The following work was presented at the
+									<strong>10th International Conference on Information Systems for Crisis Response and Management (ISCRAM)</strong>
+									in Baden-Baden, Germany. This presentation describes our work which shows the importance of microblogging websites such as Twitter, Facebook and the huge number of informative contents that people post over. We believe that this information can contribute to situational awareness at the time of disasters. Specifically, the work shows the classification, and information extractions of those valuable, actionable informative messages that people post during emergencies.</li>
+							</ul>
 
-<p><br/>
-<iframe src="http://www.slideshare.net/slideshow/embed_code/21162039" width="100%" height="356" frameborder="0" marginwidth="0"
-marginheight="0" scrolling="no" style="max-width:427px;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen
-webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a
-href="https://www.slideshare.net/mimran15/imran-iscramnuggest" title="Extracting Information Nuggets from Disaster-Related Messages in
-Social Media" target="_blank">Extracting Information Nuggets from Disaster-Related Messages in Social Media</a> </strong> from <strong><a
-href="http://www.slideshare.net/mimran15" target="_blank">Muhammad Imran</a></strong> </div></p>
+							<p>
+								<br/>
+								<iframe src="http://www.slideshare.net/slideshow/embed_code/21162039" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width:427px;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+								<div style="margin-bottom:5px">
+									<strong>
+										<a href="https://www.slideshare.net/mimran15/imran-iscramnuggest" title="Extracting Information Nuggets from Disaster-Related Messages in
+Social Media" target="_blank">Extracting Information Nuggets from Disaster-Related Messages in Social Media</a>
+									</strong>from
+									<strong>
+										<a href="http://www.slideshare.net/mimran15" target="_blank">Muhammad Imran</a>
+									</strong>
+								</div>
+							</p>
 
-<p><br/><br/></p>
+							<p>
+								<br/>
+								<br/>
+							</p>
 
-<ul>
-<li>The following work was presented at the <strong>10th International Conference on Information Systems for Crisis Response and Management (ISRAM)</strong>
-in Baden-Baden, Germany. This work presentes Tweet4act system, which is used
-to detect and classify crisis-related messages communicated over a microblogging platform. Our system relies on extracting content features
-from each message. These features and the use of an incident-specific dictionary allow us to determine the period type of an incident that
-each message belongs to. </li>
-</ul>
+							<ul>
+								<li>The following work was presented at the
+									<strong>10th International Conference on Information Systems for Crisis Response and Management (ISRAM)</strong>
+									in Baden-Baden, Germany. This work presentes Tweet4act system, which is used to detect and classify crisis-related messages communicated over a microblogging platform. Our system relies on extracting content features from each message. These features and the use of an incident-specific dictionary allow us to determine the period type of an incident that each message belongs to.</li>
+							</ul>
 
-<p><br/>
-<iframe src="http://www.slideshare.net/slideshow/embed_code/25306445" width="100%" height="356" frameborder="0"
-marginwidth="0" marginheight="0" scrolling="no" style="max-width:427px;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"
-allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a
-href="https://www.slideshare.net/mimran15/tweet4act-using-incidentspecific-profiles-for-classifying-crisisrelated-messages"
-title="Tweet4act: Using Incident-Specific Profiles for Classifying Crisis-Related Messages" target="_blank">Tweet4act: Using
-Incident-Specific Profiles for Classifying Crisis-Related Messages</a> </strong> from <strong><a href="http://www.slideshare.net/mimran15"
-target="_blank">Muhammad Imran</a></strong> </div></p>
-</div>
+							<p>
+								<br/>
+								<iframe src="http://www.slideshare.net/slideshow/embed_code/25306445" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="max-width:427px;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+								<div style="margin-bottom:5px">
+									<strong>
+										<a href="https://www.slideshare.net/mimran15/tweet4act-using-incidentspecific-profiles-for-classifying-crisisrelated-messages" title="Tweet4act: Using Incident-Specific Profiles for Classifying Crisis-Related Messages" target="_blank">Tweet4act: Using Incident-Specific Profiles for Classifying Crisis-Related Messages</a>
+									</strong>from
+									<strong>
+										<a href="http://www.slideshare.net/mimran15" target="_blank">Muhammad Imran</a>
+									</strong>
+								</div>
+							</p>
+					</div>
 				</div>
 				<div id="subCol">
 					<ul>
@@ -190,18 +238,22 @@ target="_blank">Muhammad Imran</a></strong> </div></p>
 							<h2>Latest News</h2>
 							<p class="pad">
 
-							Jan 2014 </br>
-							 - <a href="http://mimran.me/publications">Paper accepted at WWW-2014</a>
-							</br>
-							 - <a href="http://mimran.me/publications">Paper accepted at ISCRAM-2014</a>
+								Jan 2014</br>
+								-
+								<a href="http://mimran.me/publications">Paper accepted at WWW-2014</a>
+								</br>
+								-
+								<a href="http://mimran.me/publications">Paper accepted at ISCRAM-2014</a>
 
-							</br>
-							 May 2013 </br>
-							 - <a href="/research_work/iscram13_best_paper_award.html">Best paper award</a>
+								</br>
+								May 2013</br>
+								-
+								<a href="/research_work/iscram13_best_paper_award.html">Best paper award</a>
 
-							</br>
-							July 2013 </br>
-							- <a href="http://mimran.me/publications">Paper accepted at JCDL-WOSP-2013</a>
+								</br>
+								July 2013</br>
+								-
+								<a href="http://mimran.me/publications">Paper accepted at JCDL-WOSP-2013</a>
 
 							</p>
 
@@ -233,8 +285,10 @@ target="_blank">Muhammad Imran</a></strong> </div></p>
 				</div>
 			</div>
 			<div id="footer">
-				  <p> &copy; 2009-2014 Muhammad Imran</p>
+				<p>&copy; 2009-2014 Muhammad Imran</p>
 			</div>
 		</div>
 	</div>
-</body></html>
+</body>
+
+</html>
