@@ -23,8 +23,9 @@ body, .leftCorner, .rightCorner {background-color: #9bc3d5;}
 body, .author span {color: #34444c;}
 
 /* Links */
-a, a:visited {color: #BA0E0E;} /*  7f1d1d*/
-a:hover {color: #c40000, text-decoration:underline;} /* Rollovers */
+a, a:visited {color: #BA0E0E; text-decoration: none;} /*  #7f1d1d  #BA0E0E*/
+a:hover { text-decoration: underline;} /* Rollovers red col=#c40000*/
+
 
 /* Stripes above & below the main image */
 #header, #photo, #nav ul li a {border-color: #67939B;}
