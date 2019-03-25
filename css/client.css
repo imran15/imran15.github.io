@@ -1,8 +1,8 @@
-/* 
+/*
    Client CSS
 	 -----------------------------------------------------------------------
-   Customise your copy of Ocean Mist 2.0... 
-	 
+   Customise your copy of Ocean Mist 2.0...
+
 	 This stylesheet contains all the styles which you can safely change without risking breaking your site's layout.
 	 I've tried to comment on every line so that you can easily tell what you need to edit...
 */
@@ -19,12 +19,26 @@ body, .leftCorner, .rightCorner {background-color: #9bc3d5;}
 /* Main column colour */
 #mainCol {background-color: #fff;}
 
+
 /* Default Text colour */
-body, .author span {color: #34444c;}
+body{
+/*
+background: #eee url(bg_overlay-2.png) repeat bottom left;
+z-index: 0;
+*/
+/*font-family:"OpenSans",Helvetica ,Arial,sans-serif;*/
+font-weight:400;
+/*font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+color:#555;
+}
+
+/*body, .author span {color: #34444c;}*/
+
 
 /* Links */
-a, a:visited {color: #BA0E0E; text-decoration: none;} /*  #7f1d1d  #BA0E0E*/
+a, a:visited {color: #0088CC; text-decoration: none;} /*  #7f1d1d  #BA0E0E  #BA0E0E */
 a:hover { text-decoration: underline;} /* Rollovers red col=#c40000*/
+
 
 
 /* Stripes above & below the main image */
@@ -43,7 +57,7 @@ a:hover { text-decoration: underline;} /* Rollovers red col=#c40000*/
 /* single pixel line between posts */
 .article + .article {border-top: 1px solid #cad6e1;}
 
-/* "or" between browse & search fields */ 
+/* "or" between browse & search fields */
 .or {border-color: #cad6e1; color: #a9b8c0;}
 
 /* Date boxes */
