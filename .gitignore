@@ -3,3 +3,5 @@
 images/.DS_Store
 misc/.DS_Store
 papers/.DS_Store
+update_pubs.py
+fix_html.py
