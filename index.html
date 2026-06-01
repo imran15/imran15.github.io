@@ -3,6 +3,7 @@
 
 <head profile="http://gmpg.org/xfn/11">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Homepage | Dr. Muhammad Imran</title>
 
@@ -10,26 +11,103 @@
     <link href="/css/default.css" rel="stylesheet" media="all" type="text/css">
     <link href="/css/presets.css" rel="stylesheet" media="all" type="text/css">
     <link href="/css/client.css" rel="stylesheet" media="all" type="text/css">
+
+    <style type="text/css">
+        /* Homepage refinements */
+        #mainCol .article p {
+            line-height: 1.55;
+        }
+
+        #mainCol .article .profile-photo {
+            float: right;
+            margin: 0 0 10px 14px;
+            border-radius: 3px;
+        }
+
+        #mainCol .article .public-profiles {
+            margin-top: 12px;
+        }
+
+        /* Latest news: scoped styling so it does not affect the rest of the site */
+        #content #mainCol .article .latest-news-block {
+            margin-top: 18px;
+            padding-top: 8px;
+        }
+
+        #content #mainCol .article .latest-news-title {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            line-height: 1.3;
+            font-weight: 700;
+            color: #222;
+            letter-spacing: 0.1px;
+        }
+
+        #content #mainCol .article ul.latest-news-list {
+            margin: 0;
+            padding-left: 18px;
+            font-size: 12.5px !important;
+            line-height: 1.38 !important;
+            color: #333;
+        }
+
+        #content #mainCol .article ul.latest-news-list li {
+            margin: 0 0 7px 0;
+            padding: 0;
+            font-size: 12.5px !important;
+            line-height: 1.38 !important;
+        }
+
+        #content #mainCol .article ul.latest-news-list strong {
+            font-weight: 700;
+            color: #222;
+        }
+
+        #content #mainCol .article ul.latest-news-list em {
+            font-style: italic;
+        }
+
+        #content #mainCol .article ul.latest-news-list a {
+            font-size: 12px !important;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+        #content #mainCol .article ul.latest-news-list a:hover {
+            text-decoration: underline;
+        }
+
+        #content #mainCol .article ul.latest-news-list .news-date {
+            font-weight: 700;
+            color: #222;
+        }
+
+        #content #mainCol .article ul.latest-news-list .news-link {
+            font-weight: 700;
+        }
+    </style>
+
     <!--[if IE 7]>
-	<link href="/css/ie7.css" rel="stylesheet" type="text/css" media="screen" />
-	<![endif]-->
+    <link href="/css/ie7.css" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
     <!--[if lt IE 7]>
-	<link href="/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
-	<![endif]-->
+    <link href="/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
 
     <script src="/js/oceanmist.js" type="text/javascript"></script>
 
-    <!--  Google Analytics start -->
+    <!-- Google Analytics start -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FM88P815X8"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-FM88P815X8');
+        gtag('config', 'G-FM88P815X8');
     </script>
-    <!--  Google Analytics end -->
+    <!-- Google Analytics end -->
+
     <script>
         window.twttr = (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0],
@@ -56,37 +134,41 @@
         <div id="container">
             <div class="rightShade"></div>
             <div class="leftShade"></div>
+
             <div id="header">
                 <p id="logo">
                     <a href="/">Muhammad Imran (PhD)</a>
                 </p>
                 <p id="strapline">Principal Scientist at Qatar Computing Research Institute</p>
             </div>
+
             <div id="photo">
-                <!-- <img src="/images/greec/greec-crete02.jpg" alt="Ocean Mist" /> -->
-                <img src="/images/qatar/Doha_Westbay_2018_small2.jpg" alt="Ocean Mist" />
+                <img src="/images/qatar/Doha_Westbay_2018_small2.jpg" alt="Doha West Bay" />
                 <div id="nav">
                     <ul>
                         <li class="current">
                             <a href="/">Home</a>
                         </li>
-                        <li class="">
+                        <li>
                             <a href="/publications">Publications</a>
                         </li>
-                        <li class="">
+                        <li>
                             <a href="/talks">Talks and lectures</a>
                         </li>
-<!--
-                        <li class="">
+                        <!--
+                        <li>
                             <a href="/crisis-computing">Crisis and Humanitarian Computing</a>
                         </li>
--->
-                        <!-- <li class="">
-							<a href="/teaching">Teaching</a>
-						</li> -->
+                        -->
+                        <!--
+                        <li>
+                            <a href="/teaching">Teaching</a>
+                        </li>
+                        -->
                     </ul>
                 </div>
             </div>
+
             <div id="content">
                 <div id="mainCol">
                     <div class="article">
@@ -97,172 +179,150 @@
                         </p>
 
                         <p>
-                            <img src="/images/Imran_QCRI_2024.jpg" width="100" height="113" alt="Imran" style="float: right; margin: 0 0 10px 10px;" />
-                            <strong>Short bio:</strong> Dr. Muhammad Imran is a Principal Scientist and Lead of the Crisis Computing team at Qatar Computing Research Institute. His research interests lie in the application of artificial intelligence, machine learning, and big data analytics to improve decision-making in a variety of contexts such as humanitarian response and resilience. Dr. Imran completed his PhD in 2013 from the University of Trento in Italy and has since worked at Qatar Computing Research Institute as a Scientist for five years and a postdoc for two. He has over 100 peer-reviewed publications, including 5 best paper awards. His work has also been featured in mainstream media outlets such as the BBC, WIRED Magazine, New Scientist. He has delivered keynotes and invited talks at international venues, and holds the position of Associate Editor for the Frontiers in Big Data Mining and Management journal, editor of several special issues in top journals, and track chair and program committee member for multiple conferences and journals. 
-
-                        <!--    
-                        <p>
-                                For more information, see his detailed <a href="/imran_resume.pdf" target="_blank">curriculum vitae</a>. (Updated Sep 2022)
-
-                            </p>
--->
-<p>
-                            <b>Public profiles:</b>
-
-
-                            <!--
-							<a title="Muhammad Imran" href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&amp;hl=en/" target="_blank">
-								<img src="/images/gscholar.jpeg" width="50" height="13" align="top" border="0" alt="Muhammad Imran" />
-							</a>
-							<a title="Muhammad Imran" href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank">
-								<img src="https://www.researchgate.net/images/public/profile_share_badge.png" width="60" height="13" align="top" border="0" alt="Muhammad Imran" />
-							</a>
-							<a href="http://qa.linkedin.com/pub/muhammad-imran/1b/b4/a75" target="_blank">
-								<img src="/images/linkedIn_button.gif" width="62" height="13" align="top" border="0" alt="View Muhammad Imran's profile on LinkedIn">
-							</a>
--->
-                            <a href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&amp;hl=en/" target="_blank"><b>Google Scholar</b></a>
-                            <b> | </b>
-                            <a href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank"><b>ResearchGate</b></a>
-                            <b> | </b>
-                            <a href="https://qa.linkedin.com/in/muhammad-imran-a750b41b/en" target="_blank"><b>LinkedIn</b></a>
-</p>
-                            
-
-
-                            <table style="width:50%">
-                                <tr>
-                                    <td><a class="twitter-follow-button" href="https://twitter.com/mimran15" data-show-count="false" data-size="default">
-										Follow @mimran15</a> </td>
-                                    <!-- <td>
-                                        <a href="https://qa.linkedin.com/pub/muhammad-imran/1b/b4/a75">
-
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="100" height="15" border="-1" alt="View Muhammad Imran's profile on LinkedIn">
-
-    </a>
-                                    </td> -->
-                                </tr>
-
-                            </table>
-                            <!-- WIT FOLLOWERS COUNT
-                            <a class="twitter-follow-button" href="https://twitter.com/mimran15" data-show-count=true data-size=default align="top">
-										Follow @mimran15</a> -->
-
-                            <!-- WITHOUT FOLLOWERS COUNT -->
-
-
-
-
-                            <!-- <a href="https://twitter.com/mimran15" class="twitter-follow-button" data-show-count="false">Follow &#64;mimran15</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
--->
-                            <hr />
-
-                            <p>
-                                <strong>Latest news:</strong>
-                            </p>
-                            <ul>
-                                <li>
-                                    <strong>CFP Special issue 2020:</strong> Special Issue on Big Data in Epidemics in the Journal of Big Data Research. <a href="https://www.journals.elsevier.com/big-data-research/call-for-papers/special-issue-on-big-data-in-epidemics"><b>More details here</b></a>.
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>CFP Special issue 2019:</strong> Special Issue on Using AI and Social Media for Disaster Response and Management in the Journal of Information Processing and Management. <a href="https://crisiscomputing.qcri.org/2019/01/20/special-issue-on-using-ai-and-social-media-for-disaster-response-and-management/"><b>More details here</b></a>.
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>CFP ISCRAM 2018:</strong> The topics of interest to <a href="https://iscram2018.rit.edu/">ISCRAM'18</a> include, but are not limited to: crisis informatics, geographic information systems (GIS), social media studies, human-computer interaction, humanitarian information management, situation awareness, visual analytics. <a href="https://iscram2018.rit.edu/sites/rit.edu.iscram2018/files/docs/ISCRAM_2018_track_Social_Media.pdf"><b>More details</b></a>.
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>2017 April: CFP-Special issue</strong> - Co-organizing a <a href="http://sec-hci.chreu.de/ijhci/"><b>Special Issue: Social Media in Crisis Management </b></a> in the <a href="http://www.tandfonline.com/toc/hihc20/current">International Journal of Human-Computer Interaction (IJHCI)</a>. Deadline July 1st 2017. Consider submitting your papers.
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>2017 April: CFP-Special issue</strong> - Co-organizing a <a href="http://organ-assoc.business.utsa.edu/isfrontiers/forthcoming1/CFP_Special_Issue_Exploitation%20of%20Social%20Media%20for%20Emergency%20Relief%20and%20Preparedness.pdf"><b>Special Issue: Exploitation of Social Media for Emergency Relief and Preparedness</b></a> in the <a href="http://www.springer.com/business+%26+management/business+information+systems/journal/10796">Journal Information Systems Frontiers</a>. Deadline July 1st 2017. Consider submitting your papers.
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>2016 Oct:</strong> Our paper
-                                    <a href="papers/a_robust_framework_for_classifying_evolving_document_streams_in_EMC_setting_ICDM2016.pdf">
-                                        <b>A Robust Framework for Classifying Evolving Document Streams in an Expert-Machine-Crowd Setting.</b></a> got accepted in ICDM 2016 conference. <br/>
-
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>2016 Sep:</strong> - Delighted to give a keynote talk at the ICIC-2016 conference.<br/>
-
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>2016 May:</strong> - Received the Best Paper Award at ISCRAM 2016 conference for our paper
-                                    <a href="papers/Imran_Prasenjit_Jaideep_DomainAdaptation_ISCRAM2016.pdf" target="_blank">
-                                        <b>Cross-Language Domain Adaptation for Classifying Crisis-Related Short Messages.</b></a>
-                                <br/>
-                                </li>
-                                <li><strong>May 2016</strong> - Honored to be invited to give a keynote talk at the ISCRAM 2016 conference.
-                                <br/>
-                                </li>
-                                <li>
-                                    <strong>April 2015</strong> - Journal paper got accepted @ ACM Computing Surveys
-
-                                <br/>
-                                </li>
-                                <li>
-
-                                    <strong>May 2013 - Best Paper Award @ ISCRAM'13</strong>
-                                    <br/>We were delighted to be awarded the best paper award for our paper
-                                    <a href="/papers/imran_shady_carlos_fernando_patrick_iscram2013.pdf">Extracting Information Nuggets from Disaster-Related Messages in Social Media</a>. This described our recent work submitted to ISCRAM2013 where we explored the role of microblogging websites during emergencies...
-                                    <a href="http://mimran.me/research_work/iscram13_best_paper_award">more</a>
-                                </li>
-
-                                <!--    <p>
-                            <br/>
-                            <strong>[July, 2013] - Paper accepted @ JCDL (WOSP)'13</strong>
-                            <br/>Our paper
-                            <em>
-								<a href="/papers/imran_zeeshan_maurizio_nameDisambiguation2013.pdf">A Real-time Heuristic-based Unsupervised Method for Name Disambiguation in Digital Libraries</a>
-							</em>has been accepted for publication at JCDL (WOSP).
+                            <img src="/images/Imran_QCRI_2024.jpg" width="100" height="113" alt="Muhammad Imran" class="profile-photo" />
+                            <strong>Short bio:</strong> Dr. Muhammad Imran is a Principal Scientist and Lead of the Crisis Computing team at Qatar Computing Research Institute. His research interests lie in the application of artificial intelligence, machine learning, and big data analytics to improve decision-making in areas such as humanitarian response and resilience. Dr. Imran completed his PhD in 2013 from the University of Trento in Italy and has since worked at Qatar Computing Research Institute as a Scientist for five years and a postdoc for two. He has over 100 peer-reviewed publications, including 5 best paper awards. His work has also been featured in mainstream media outlets such as the BBC, WIRED, and New Scientist. He has delivered keynotes and invited talks at international venues, and holds the position of Associate Editor for the Frontiers in Big Data Mining and Management journal, editor of several special issues in top journals, and track chair and program committee member for multiple conferences and journals.
                         </p>
--->
+
+                        <!--
+                        <p>
+                            For more information, see his detailed <a href="/imran_resume.pdf" target="_blank" rel="noopener noreferrer">curriculum vitae</a>. (Updated Sep 2022)
+                        </p>
+                        -->
+
+                        <p class="public-profiles">
+                            <b>Public profiles:</b>
+                            <a href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&amp;hl=en/" target="_blank" rel="noopener noreferrer"><b>Google Scholar</b></a>
+                            <b> | </b>
+                            <a href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank" rel="noopener noreferrer"><b>ResearchGate</b></a>
+                            <b> | </b>
+                            <a href="https://qa.linkedin.com/in/muhammad-imran-a750b41b/en" target="_blank" rel="noopener noreferrer"><b>LinkedIn</b></a>
+                        </p>
+
+                        <table style="width:50%">
+                            <tr>
+                                <td>
+                                    <a class="twitter-follow-button" href="https://twitter.com/mimran15" data-show-count="false" data-size="default">
+                                        Follow @mimran15
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <hr />
+
+                        <div class="latest-news-block">
+                            <p class="latest-news-title">Latest news</p>
+
+                            <ul class="latest-news-list">
+                                <li>
+                                    <span class="news-date">May 2026:</span> Received the <strong>HBKU Research Excellence Award</strong> for research contributions at Qatar Computing Research Institute.
+                                    <a class="news-link" href="https://qna.org.qa/en/News-Area/News/2026-5/3/hamad-bin-khalifa-university-marks-graduation-of-class-of-2026" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">April 2026:</span> Our U.S. patent, <strong>Remote Sensing and Social Sensing for Flood Mapping</strong>, was issued by the United States Patent and Trademark Office.
+                                    <a class="news-link" href="https://patents.google.com/patent/US12614385B2/en" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2026:</span> Our paper <strong>DisasterVQA: A Visual Question Answering Benchmark Dataset for Disaster Scenes</strong> was accepted at ICWSM 2026.
+                                    <a class="news-link" href="https://arxiv.org/abs/2601.13839" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2025:</span> Our article <strong>AI-Driven Disaster Response and Displacement Monitoring</strong> was published in <em>Communications of the ACM</em>.
+                                    <a class="news-link" href="https://cacm.acm.org/arab-world-regional-special-section/ai-driven-disaster-response-and-displacement-monitoring/" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2025:</span> Our paper <strong>Evaluating Robustness of LLMs on Crisis-Related Microblogs across Events, Information Types, and Linguistic Features</strong> was published in the proceedings of The Web Conference.
+                                    <a class="news-link" href="https://dl.acm.org/doi/10.1145/3696410.3714511" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2024:</span> Our article <strong>Fusing Remote and Social Sensing Data for Flood Impact Mapping</strong> was published in <em>AI Magazine</em>.
+                                    <a class="news-link" href="https://onlinelibrary.wiley.com/doi/10.1002/aaai.12196" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2024:</span> Our <strong>Flood Insights</strong> system paper received the AAAI-IAAI Deployed Application Award.
+                                    <a class="news-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/30305" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2023:</span> Our ACL paper <strong>IDRISI-RA: The First Arabic Location Mention Recognition Dataset of Disaster Tweets</strong> introduced a benchmark for Arabic crisis geolocation research.
+                                    <a class="news-link" href="https://aclanthology.org/2023.acl-long.909/" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2022:</span> Our paper <strong>TBCOV: Two Billion Multilingual COVID-19 Tweets with Sentiment, Entity, Geo, and Gender Labels</strong> was published in <em>Data</em>.
+                                    <a class="news-link" href="https://www.mdpi.com/2306-5729/7/1/8" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2020:</span> Our paper <strong>Rapid Damage Assessment Using Social Media Images by Combining Human and Machine Intelligence</strong> received the Best Paper Award at ISCRAM 2020.
+                                    <a class="news-link" href="https://arxiv.org/abs/2004.06675" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2020:</span> Our article <strong>Using AI and Social Media Multimodal Content for Disaster Response and Management</strong> was published in <em>Information Processing &amp; Management</em>.
+                                    <a class="news-link" href="https://www.sciencedirect.com/science/article/pii/S0306457319309901" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2018:</span> Our paper <strong>CrisisMMD: Multimodal Twitter Datasets from Natural Disasters</strong> was published at ICWSM 2018.
+                                    <a class="news-link" href="https://arxiv.org/abs/1805.00713" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2015:</span> Our survey paper <strong>Processing Social Media Messages in Mass Emergency</strong> was published in <em>ACM Computing Surveys</em>.
+                                    <a class="news-link" href="https://dl.acm.org/doi/10.1145/2771588" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
+
+                                <li>
+                                    <span class="news-date">2013:</span> Received the Best Paper Award at ISCRAM 2013 for <strong>Extracting Information Nuggets from Disaster-Related Messages in Social Media</strong>.
+                                    <a class="news-link" href="/papers/imran_shady_carlos_fernando_patrick_iscram2013.pdf" target="_blank" rel="noopener noreferrer">More details</a>.
+                                </li>
                             </ul>
+                        </div>
                     </div>
                 </div>
+
                 <div id="subCol">
                     <ul>
                         <li>
                             <h2>Scholarly profiles</h2>
                             <p class="pad">
-                                <a href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&amp;hl=en/" target="_blank">- Google Scholar</a><br/>
-<!--                                <hr style="border: 1px solid blue;" />-->
-                                <a href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank">- ResearchGate</a><br/>
-                                <a href="http://dblp.uni-trier.de/pers/hd/i/Imran_0002:Muhammad" target="_blank">- DBLP</a><br/>
-                                <a href="https://www.scopus.com/authid/detail.uri?authorId=55598006500" target="_blank">- Scopus</a>
-</p>
+                                <a href="http://scholar.google.com/citations?user=z8niHlEAAAAJ&amp;hl=en/" target="_blank" rel="noopener noreferrer">- Google Scholar</a><br/>
+                                <a href="https://www.researchgate.net/profile/Muhammad_Imran34/" target="_blank" rel="noopener noreferrer">- ResearchGate</a><br/>
+                                <a href="http://dblp.uni-trier.de/pers/hd/i/Imran_0002:Muhammad" target="_blank" rel="noopener noreferrer">- DBLP</a><br/>
+                                <a href="https://www.scopus.com/authid/detail.uri?authorId=55598006500" target="_blank" rel="noopener noreferrer">- Scopus</a>
+                            </p>
                         </li>
+
                         <li class="pagenav">
                             <h2>social media</h2>
-                             <p class="pad">
-                            <a href="https://twitter.com/mimran15" target="_blank">- Twitter</a><br/>
-                            <a href="https://qa.linkedin.com/in/muhammad-imran-a750b41b/en" target="_blank">- LinkedIn</a>
-
-</p>
+                            <p class="pad">
+                                <a href="https://twitter.com/mimran15" target="_blank" rel="noopener noreferrer">- Twitter</a><br/>
+                                <a href="https://qa.linkedin.com/in/muhammad-imran-a750b41b/en" target="_blank" rel="noopener noreferrer">- LinkedIn</a>
+                            </p>
                         </li>
+
                         <li class="pagenav">
                             <h2>Misc. links</h2>
-                             <p class="pad">
-                                 <a href="https://www.slideshare.net/mimran15/presentations" target="_blank">- Slides (slideshare)</a><br/>
-                                 <a href="http://crisisnlp.qcri.org" target="_blank">- Datasets (CrisisNLP)</a><br/>
-                                <a href="http://aidr.qcri.org/" target="_blank">- AIDR system</a><br/>
-                                <a href="http://crisiscomputing.qcri.org" target="_blank">- Crisis Computing blog</a><br/>
-                                <a href="https://medium.com/qatar-foundation/how-qatar-foundations-robots-are-delivering-disaster-relief-8dbc7d3a73e4" target="_blank">- Medium article</a><br/>
-                                <a href="https://centre.humdata.org/community-qa-the-qatar-computing-research-institute/" target="_blank">- Q&A by OCHA's Centre</a>
-
-</p>
+                            <p class="pad">
+                                <a href="https://www.slideshare.net/mimran15/presentations" target="_blank" rel="noopener noreferrer">- Slides (slideshare)</a><br/>
+                                <a href="http://crisisnlp.qcri.org" target="_blank" rel="noopener noreferrer">- Datasets (CrisisNLP)</a><br/>
+                                <a href="http://aidr.qcri.org/" target="_blank" rel="noopener noreferrer">- AIDR system</a><br/>
+                                <a href="http://crisiscomputing.qcri.org" target="_blank" rel="noopener noreferrer">- Crisis Computing blog</a><br/>
+                                <a href="https://medium.com/qatar-foundation/how-qatar-foundations-robots-are-delivering-disaster-relief-8dbc7d3a73e4" target="_blank" rel="noopener noreferrer">- Medium article</a><br/>
+                                <a href="https://centre.humdata.org/community-qa-the-qatar-computing-research-institute/" target="_blank" rel="noopener noreferrer">- Q&amp;A by OCHA's Centre</a>
+                            </p>
                         </li>
                     </ul>
                 </div>
             </div>
+
             <div id="footer">
                 <p>&copy; 2009-2026 Muhammad Imran (All rights reserved)</p>
             </div>
